@@ -1,11 +1,11 @@
 [web]
-web1
+localhost
 
 [db]
-db1
+localhost
 
 [test]
-web1
+localhost
 
 [web:vars]
 ansible_python_interpreter=/usr/bin/python3
