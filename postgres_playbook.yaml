@@ -1,7 +1,8 @@
 ---
 
 - name: Create Postgres DB server
-  hosts: db
+  hosts: local
+  connection: local
   become: yes
   remote_user: ted
   vars_files:
